@@ -1,0 +1,12 @@
+jupyterlab
+# notebook # alternatively jupyter notebook
+
+numpy
+pandas
+matplotlib
+
+pandapower
+simbench
+
+# Optional
+python-igraph
