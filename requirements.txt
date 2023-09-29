@@ -10,3 +10,8 @@ simbench
 
 # Optional
 python-igraph
+
+# Code Formatting
+black
+isort
+jupyterlab-code-formatter
