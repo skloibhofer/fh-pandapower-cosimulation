@@ -1,9 +1,12 @@
 jupyterlab
-# notebook # alternatively jupyter notebook
+# notebook  # alternatively jupyter notebook
 
 numpy
 pandas
 matplotlib
+
+xlrd  # for Excel parsing for pandas
+holidays
 
 pandapower
 simbench
