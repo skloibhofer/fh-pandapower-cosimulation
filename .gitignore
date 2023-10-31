@@ -1,4 +1,5 @@
 .ipynb_checkpoints/
+__pycache__/
 
 # I save notebooks from others in this folder
 external/
