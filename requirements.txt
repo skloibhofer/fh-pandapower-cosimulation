@@ -1,4 +1,5 @@
 jupyterlab
+jupyterlab-git>=0.50.0a2  # Older versions don't work for Lab 4.x
 # notebook  # alternatively jupyter notebook
 
 numpy
