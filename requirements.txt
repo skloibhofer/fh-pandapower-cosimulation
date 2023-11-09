@@ -12,6 +12,10 @@ holidays
 pandapower
 simbench
 
+# pandapower dependencies
+numba  # For faster calculations
+openpyxl  # If writing to Excel
+
 pvlib
 
 # Optional

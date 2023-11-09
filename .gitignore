@@ -7,3 +7,4 @@ __pycache__/
 
 # I save notebooks from others in this folder
 external/
+outputs/
