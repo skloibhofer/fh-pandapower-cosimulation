@@ -1,5 +1,5 @@
-jupyterlab
-jupyterlab-git>=0.50.0a2  # Older versions don't work for Lab 4.x
+jupyterlab<4.0
+jupyterlab-git  # >=0.50.0a2 # if working with Lab 4.x
 # notebook  # alternatively jupyter notebook
 
 numpy
@@ -20,6 +20,7 @@ pvlib
 
 # Optional
 python-igraph
+mitosheet
 
 # Code Formatting
 black
