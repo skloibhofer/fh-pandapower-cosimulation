@@ -119,7 +119,7 @@ def get_load_profile(
     dynamize = type == "H0"
 
     daily_profiles = []
-    for day in pd.date_range("2015-01-01", datetime.date(2015, 12, 31), freq="D"):
+    for day in pd.date_range(from_, to, freq="D"):
         daily_profiles.append(load_profile_for_day(day.date(), profile_df, dynamize))
 
     return pd.concat(daily_profiles, axis="index")
