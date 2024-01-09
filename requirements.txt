@@ -22,6 +22,12 @@ pvlib
 python-igraph
 mitosheet
 
+# Dash
+plotly
+dash
+dash_bootstrap_components
+
+
 # Code Formatting
 black
 isort
