@@ -9,6 +9,7 @@ import pandas as pd
 
 # Constants
 AT_HOLIDAYS = holidays.AUT()
+PROFILE_TYPES = ["H0", "G0", "G1", "G2", "G3", "G4", "G5", "G6", "L0", "L1", "L2"]
 
 # Dynamization function coefficients
 A4 = -3.92e-10
