@@ -7,6 +7,9 @@ import numpy as np
 import pandas as pd
 
 
+# TODO: One of Samstag or Sonntag is not returned correctly
+# TODO: End of year has extremely high values for dynamized time series
+
 # Constants
 AT_HOLIDAYS = holidays.AUT()
 PROFILE_TYPES = ["H0", "G0", "G1", "G2", "G3", "G4", "G5", "G6", "L0", "L1", "L2"]
