@@ -1,10 +1,12 @@
+# run: conda env create --file environment.yml
 name: pandapower312
 channels:
   - conda-forge
 dependencies:
   - python=3.12
+  - pip
   # Only jupyter notebooks, or whole jupyter lab
-  - notebook  # alternatively jupyter notebook
+  - notebook 
   # - jupyterlab<4.0
   # - jupyterlab-git  # >=0.50.0a2 # if working with Lab 4.x
   # Standard Data Science packages
@@ -17,17 +19,21 @@ dependencies:
   - pvlib
   # pandapower and dependencies
   - pandapower
-  - simbench
+  # - simbench
   - numba  # For faster calculations
   - openpyxl  # If writing to Excel
   # Optional
   - python-igraph
-  - mitosheet
+  # - mitosheet
   # Dash
   - plotly
   - dash
-  - dash_bootstrap_components
+  # - dash_bootstrap_components
   # Code Formatting
   - black
   - isort
   # - jupyterlab-code-formatter
+  - pip:
+    - dash_bootstrap_components
+    - mitosheet
+    - simbench
