@@ -9,7 +9,7 @@ matplotlib
 xlrd  # for Excel parsing for pandas
 holidays
 
-pandapower
+pandapower>=2.14.11  # Require up to date version
 simbench
 
 # pandapower dependencies
