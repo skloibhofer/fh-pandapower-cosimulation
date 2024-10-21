@@ -1,5 +1,5 @@
 # run: conda env create --file environment.yml
-name: pandapower312
+# name: pandapower312
 channels:
   - conda-forge
 dependencies:
