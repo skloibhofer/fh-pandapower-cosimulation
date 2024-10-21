@@ -18,7 +18,7 @@ dependencies:
   - holidays
   - pvlib
   # pandapower and dependencies
-  - pandapower>=3.14.11
+  - pandapower>=2.14.11
   # - simbench
   - numba  # For faster calculations
   - openpyxl  # If writing to Excel
