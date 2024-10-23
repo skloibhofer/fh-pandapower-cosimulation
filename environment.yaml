@@ -17,8 +17,6 @@ dependencies:
   - xlrd  # for Excel parsing for pandas
   - holidays
   - pvlib
-  # pandapower and dependencies
-  - pandapower>=2.14.11
   # - simbench
   - numba  # For faster calculations
   - openpyxl  # If writing to Excel
@@ -34,6 +32,8 @@ dependencies:
   - isort
   # - jupyterlab-code-formatter
   - pip:
+    # pandapower and dependencies
+    - pandapower>=2.14.11
+    - simbench
     - dash_bootstrap_components
     - mitosheet
-    - simbench
