@@ -1,6 +1,6 @@
-jupyterlab<4.0
-jupyterlab-git  # >=0.50.0a2 # if working with Lab 4.x
-# notebook  # alternatively jupyter notebook
+# jupyterlab<4.0
+# jupyterlab-git  # >=0.50.0a2 # if working with Lab 4.x
+notebook  # alternatively jupyter notebook
 
 numpy
 pandas
