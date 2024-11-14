@@ -16,6 +16,7 @@ simbench
 numba  # For faster calculations
 openpyxl  # If writing to Excel
 
+demandlib  # BDEV standard load profiles
 pvlib
 
 # Optional
