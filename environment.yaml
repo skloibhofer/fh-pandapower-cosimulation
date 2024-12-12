@@ -18,7 +18,7 @@ dependencies:
   - holidays
   - pvlib
   # - simbench
-  - numba  # For faster calculations
+  - numba<0.60  # Newest version has problem with VSCode debugger   # For faster calculations
   - openpyxl  # If writing to Excel
   # Optional
   - python-igraph

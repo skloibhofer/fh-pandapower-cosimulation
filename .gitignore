@@ -4,6 +4,7 @@
 .vscode/
 .idea/
 __pycache__/
+*.code-workspace
 
 # I save notebooks from others in this folder
 external/

@@ -13,7 +13,7 @@ pandapower>=2.14.11  # Require up to date version
 simbench
 
 # pandapower dependencies
-numba  # For faster calculations
+numba<0.60  # Newest version has problem with VSCode debugger # For faster calculations
 openpyxl  # If writing to Excel
 
 demandlib  # BDEV standard load profiles
